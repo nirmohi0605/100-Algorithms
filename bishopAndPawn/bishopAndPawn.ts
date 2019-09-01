@@ -4,7 +4,7 @@ function bishopAndPawn(bishop: string, pawn: string): boolean {
 
     let columnDifference = Math.abs(parseInt(bishop.charAt(1)) - parseInt(pawn.charAt(1)));
 
-    return Math.abs(bishopCharCode - pawnCharCode) === columnDifference
+    return Math.abs(bishopCharCode - pawnCharCode) === columnDifference;
 }
 
 console.log(bishopAndPawn('a6', 'a6'));
